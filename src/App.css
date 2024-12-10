@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+html,  body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Lexend';
+    background-color: #16161a;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #fffffe;
+}
+
+p {
+    color: #94a1b2;
+}
+
+main {
+    /* border: red solid 1px; */
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header {
+    /* border: red solid 1px; */
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between; /* sets width to 100% */
+    align-items: center;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #94a1b2;
+    font-weight: 500;
+    font-size: larger;
+    transition-duration: 0.15s;
+}
+
+header > nav > ul > li > a:hover {
+    color: #fffffe;
+}
+
+.logo-and-text {
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+    color: #fffffe;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    margin-bottom: 4rem;
+    border-radius: 0.5rem;
+}
+
+.hero > .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.hero > .text-container > .title {
+    font-size: 1.5rem;
+    color: #fffffe;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.hero > .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+}
+
+.article-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-cards > article { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition-duration: 0.10s;   
+}
+
+.article-cards > article:hover {
+    background-color: #242629;
+
+}
+
+.article-cards > article > p {
+    font-size: 0.9rem;
+}
+
+.article-cards > article:first-child{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.article-cards > article:last-child{
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.article-cards > article > h3 { 
+    font-weight: normal;
+}
+
+.article-cards > hr {
+    /* width: 100%; */
+    border: #242629 solid 1px;
+    margin: 0;
+}
